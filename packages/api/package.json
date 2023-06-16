@@ -1,0 +1,18 @@
+{
+    "name": "apis",
+    "exports": {
+        ".": {
+            "import": {
+                "development": "./src",
+                "default": "./dist/es/index.mjs"
+            }
+        }
+    },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "./src/*"
+            ]
+        }
+    }
+}
